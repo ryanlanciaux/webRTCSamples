@@ -5,9 +5,18 @@
  *  that can be found in the LICENSE file in the root of the source
  *  tree.
  */
+
+body {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+
 button {
   margin: 0 1em 1em 0;
   width: 90px;
+  background-color: #ccc;
 }
 div#buttons {
   margin: 0 0 1em 0;
@@ -37,7 +46,7 @@ textarea {
   color: #444;
   font-size: 0.9em;
   font-weight: 300;
-  height: 7.0em;
+  height: 7em;
   padding: 5px;
   width: calc(100% - 10px);
 }
