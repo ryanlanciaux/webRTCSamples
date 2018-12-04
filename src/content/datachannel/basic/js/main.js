@@ -29,7 +29,7 @@ startButton.onclick = createConnection;
 sendButton.onclick = sendData;
 closeButton.onclick = closeDataChannels;
 
-var selected = closeButton;
+var selected = startButton;
 selected.focus();
 
 // TODO: There are a way better ways to do this.
