@@ -63,6 +63,7 @@ function someKeydownHandler(e) {
       selected = startButton;
     } else if (selected === closeButton) {
       selected = sendButton;
+    }
   }
 
   selected.focus();
